@@ -1,0 +1,122 @@
+@media only screen  and (max-width :575px){
+    header{
+        flex-direction: column;
+        align-items: stretch;
+        width: 100%;
+        background-color: white;
+        margin: 0px;
+        position: fixed;
+    }
+    .headerleft{
+        margin: 0px;
+        justify-content: center;
+    }
+    .logo{
+        padding: 10px;
+    }
+    .headeraddress{
+        padding: 10px;
+    }
+    .headeraddress p{
+        font-size: 12px;
+    }
+    .headeraddress h3{
+        font-size: 15px;
+    }
+    .searchbox button{
+      padding: 15px;  
+      margin: 0px;
+    }
+    .headerbtn{
+        position: fixed;
+        width:100%;
+        justify-content: center;
+        align-items: center;
+        bottom: 0px;
+        margin:0px;
+    }
+    .banner-section{
+        display: none;
+    }
+    .order-section{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding: 10px;
+        width:100%;
+        max-width: 100%;
+        margin-top: 160px;
+    }
+    .orderitems img{
+        width: 100%;
+        height: auto;
+        display: block;
+
+
+    }
+    .category-section{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        
+    }
+    .item1{
+        flex-basis :20%;
+        box-sizing: border-box;
+    }
+    .item1 img{
+        width:100%;
+    }
+    .category-section2{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    .item2{
+        flex-basis: 20%;
+        box-sizing: border-box;
+    }
+    .item2 img{
+        width:100%;
+        margin-bottom: 20px;
+    }
+    footer{
+        padding-top: 0px;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .footer-mid-row1{
+        padding: 10px;
+        flex-direction: column;
+
+    }
+    
+    .useful-links {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .useful-links li{
+        flex:  0 0 50%;
+        box-sizing: border-box;
+    }
+    .categories{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+
+    }
+    .categories li{
+        flex-basis: 50%;
+        box-sizing: border-box;
+    }
+    .footer-mid-row2{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .footer-mid-row3 {
+        padding: 0px 10px;
+    }
+
+}
